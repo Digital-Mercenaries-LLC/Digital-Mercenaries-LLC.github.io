@@ -1,2 +1,12 @@
-*.swo
+## Development
+dev
+
+## Jekyll
+.jekyll-cache
+.sass-cache
+_site
+
+## Vim
 *.swp
+*.swo
+
