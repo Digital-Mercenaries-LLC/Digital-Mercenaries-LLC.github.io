@@ -1,0 +1,43 @@
+---
+vim: filetype=liquid
+layout: page
+title: Consultation
+description: >-
+  Connect with us for a personalized consultation to bring your vision to life
+
+version: 0.0.1
+author: Digital-Mercenaries
+license: All Rights Reserved
+
+navigation:
+  weight: 10
+---
+
+<p>
+  At {{ site.title }}, we look forward to discussing how we can help turn your
+  ideas into reality.
+</p>
+
+<hr>
+
+<h2>What You Can Expect</h2>
+
+<p>
+  When you contact us for an initial consultation, here's what you can expect:
+</p>
+
+{% assign workspace__consultation__steps = site.consultation | where_exp: 'item', 'item.navigation' |  sort: 'navigation.weight' %}
+
+{% for workspace__consultation__step in workspace__consultation__steps %}
+  <h3>Step {{ forloop.index }}: {{ workspace__consultation__step.title }}</h3>
+  {{ workspace__consultation__step.content | markdownify }}
+{% endfor %}
+
+<hr>
+
+<p>
+  Schedule your personalized consultation with an agent of {{ site.title }}
+  today, and let us help bring your vision to life.  We're excited to embark on
+  this journey with you and turn your ideas into impactful solutions.
+</p>
+

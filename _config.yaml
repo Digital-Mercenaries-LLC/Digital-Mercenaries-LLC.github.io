@@ -1,0 +1,108 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Digital Mercenaries LLC
+description: >- # this means to ignore newlines until "baseurl:"
+  Discreet Software Solutions. Expert Technical Mentorship. Tactical Leadership Training.
+baseurl: "/"
+url: 'https://digital-mercenaries.com'
+email: contact@digital-mercenaries.com
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+#   - jekyll-github-metadata
+
+
+timezone: America/Los_Angeles
+minima:
+  date_format: "%Y-%m-%d"
+  skin: auto
+  social_links:
+    - platform: github
+      user_url: https://github.com/Digital-Mercenaries
+      title:
+
+    - platform: mastodon
+      user_url: https://mastodon.social/@Digital_Mercenaries
+      title:
+
+    - platform: twitter
+      user_url: https://twitter.com/Digital_Mercs
+      title:
+
+##
+# https://github.com/jekyll/minima/issues/19
+# https://github.com/jekyll/minima/blob/affcd93be22e960afd2be08e6891d99b31bcf920/_config.yml#L17-L20
+# header_pages:
+#   - about.md
+#   - consultation.md
+#   - frequently-asked-questions.html
+#   - jobs.md
+#   - privacy.md
+#   - services.html
+
+## Thanks be to - https://jekyllrb.com/docs/collections/
+collections_dir: collections
+collections:
+  consultation:
+    output: false
+
+  faq:
+    output: false
+    sort_by: heading
+
+  root:
+    output: true
+    permalink: /:name.html
+
+  services:
+    output: true
+    permalink: /:collection/:name.html
+
+
+##
+# SEO (Search Engine Optimizations)
+# https://jekyll.github.io/jekyll-seo-tag/usage/
+# title:
+# description:
+# url:
+tagline: Tailored technical solutions
+logo: assets/images/logo.png
+
+author:
+  name: Digital Mercenaries LLC
+  email: contact@digital-mercenaries.com
+
+twitter:
+  username: Digital_Mercs
+  card: summary
+
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - dev/
+

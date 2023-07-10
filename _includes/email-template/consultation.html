@@ -1,0 +1,63 @@
+{% capture workspace__consultation_email_template %}
+{% comment %}
+---
+vim: filetype=liquid
+version: 0.0.1
+author: Digital-Mercenaries
+license: AGPL-3.0
+---
+{% endcomment %}
+
+<strong>To:</strong> <code>{{ site.email }}</code>
+<br>
+<strong>Subject:</strong> <code>Request for Consultation</code>
+<br>
+<strong>Body:</strong>
+<br>
+
+<hr>
+<p>Hello {{ site.title }} team,</p>
+
+<p>
+  I am reaching out to request a consultation regarding
+  <code>[services wanted]</code>
+  I'm excited about the opportunity to discuss my project and explore how
+  {{ site.title }}
+  can assist me in bringing my vision to life.
+</p>
+
+<p>
+  Here are some key details about my project:
+</p>
+
+<ul>
+  <li>
+    <strong>Services Wanted:</strong> <code>[Specify specific services you're interested]</code>
+  </li>
+
+  <li>
+    <strong>Scope and Work Highlights:</strong> <code>[Elevator pitch of your project]</code>
+  </li>
+
+  <li>
+    <strong>Time-frame:</strong> <code>[Your desired time-frame for the project]</code>
+  </li>
+
+  <li>
+    <strong>Budget:</strong> <code>[Share any budget considerations you have in mind]</code>
+  </li>
+</ul>
+
+<p>
+  Thank you for your time and consideration. I look forward to hearing from you
+  soon.
+</p>
+
+<p>Best regards,</p>
+
+<p>
+  <code>[Your Name]</code>
+</p>
+
+<hr>
+{% endcapture %}{%- if workspace__consultation_email_template -%}{{ workspace__consultation_email_template | strip_newlines | strip }}{% assign workspace__consultation_email_template = nil %}{%- endif -%}

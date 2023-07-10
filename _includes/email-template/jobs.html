@@ -1,0 +1,50 @@
+{% capture workspace__consultation_email_template %}
+{% comment %}
+---
+vim: filetype=liquid
+version: 0.0.1
+author: Digital-Mercenaries
+license: AGPL-3.0
+---
+{% endcomment %}
+
+<p>
+  <strong>To:</strong> <code>{{ site.email }}</code>
+  <br>
+  <strong>Subject:</strong> <code>[Job Title Wanted]</code> -- <code>[Your Name]</code>
+  <br>
+  <strong>Body:</strong>
+</p>
+
+<hr>
+
+<p>Hello {{ site.title }} team,</p>
+
+<p>
+  I am reaching out to express my interest in joining your team as a
+  <code>[Job Title Wanted]</code>,
+  and am excited to discuss how my skills will add value to {{ site.title }}!
+</p>
+
+<p>
+  Here are some public projects I maintain or contribute to:
+</p>
+
+<ul>
+  <li><code>[Link to GitHub Project]</code></li>
+  <li><code>[Link to GitLab Project]</code></li>
+</ul>
+
+<p>
+  Thank you for your time and consideration. I look forward to hearing from you
+  soon.
+</p>
+
+<p>
+  Best regards,
+  <br>
+  <code>[Your Name]</code>
+</p>
+
+<hr>
+{% endcapture %}{%- if workspace__consultation_email_template -%}{{ workspace__consultation_email_template | strip_newlines | strip }}{% assign workspace__consultation_email_template = nil %}{%- endif -%}

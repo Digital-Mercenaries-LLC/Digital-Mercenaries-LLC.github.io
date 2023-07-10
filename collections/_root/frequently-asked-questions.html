@@ -1,0 +1,21 @@
+---
+vim: filetype=liquid
+layout: page
+title: FAQ
+description: Frequently Asked Questions
+
+version: 0.0.1
+author: Digital-Mercenaries
+license: All Rights Reserved
+
+navigation:
+  weight: 30
+---
+
+
+{% assign data__faq__general = site.faq | where_exp: "item", "item.heading == 'General'" %}
+{% include faq/iterate-headings.html items=data__faq__general %}
+
+{% assign data__faq__services = site.faq | where_exp: "item", "item.heading != 'General'" | sort: 'heading' %}
+{% include faq/iterate-headings.html items=data__faq__services %}
+

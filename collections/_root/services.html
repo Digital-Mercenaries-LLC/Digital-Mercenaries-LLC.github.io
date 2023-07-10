@@ -1,0 +1,34 @@
+---
+vim: filetype=liquid
+layout: page
+title: Services
+description: >-
+  Explore our comprehensive range of services tailored to your technical needs,
+  including company culture audits, software engineering, developer mentoring,
+  and leadership training.
+
+version: 0.0.1
+author: Digital-Mercenaries
+license: All Rights Reserved
+
+navigation:
+  weight: 10
+---
+
+{% for service in site.services %}
+  {% if service.mission.heading and service.mission.content %}
+    <h3>
+      <a
+        href="{{ service.url }}"
+        title="{{ service.description }}"
+      >
+        {{ service.title }}
+      </a>
+    </h3>
+    <blockquote>
+      <strong>{{ service.mission.heading }}:</strong>
+      {{ service.mission.content }}
+    </blockquote>
+  {% endif %}
+{% endfor %}
+

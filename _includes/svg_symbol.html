@@ -1,0 +1,14 @@
+{% capture workspace__svg_symbol %}
+{% comment %}
+---
+vim: filetype=liquid
+version: 0.0.1
+author: Jekyll
+license: MIT
+---
+{% endcomment %}
+
+<symbol id="{{ include.key }}" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414" viewBox="0 0 16 16">
+  {%- include social-icons/{{ include.key }}.svg -%}
+</symbol>
+{% endcapture %}{%- if workspace__svg_symbol -%}{{ workspace__svg_symbol | strip_newlines | strip }}{% assign workspace__svg_symbol = nil %}{%- endif -%}

@@ -1,0 +1,30 @@
+{% capture workspace__faq %}
+{% comment %}
+---
+vim: filetype=liquid
+version: 0.0.1
+author: Digital-Mercenaries
+license: AGPL-3.0
+---
+{% endcomment %}
+
+{% assign items__list = include.items %}
+
+{% if items__list %}
+  {% assign heading__q_and_a = nil %}
+
+  {% for item__q_and_a in items__list %}
+    {% if item__q_and_a.heading != heading__q_and_a %}
+      {% assign heading__q_and_a = item__q_and_a.heading %}
+      <h3>{{ heading__q_and_a }}</h3>
+    {% endif %}
+    <details id="{{ item__q_and_a.title | slugify }}">
+      <summary><strong>{{ item__q_and_a.title }}?</strong></summary>
+      <blockquote>{{ item__q_and_a.content | markdownify }}</blockquote>
+    </details>
+  {% endfor %}
+
+  {% assign heading__q_and_a = nil %}
+{% endif %}
+
+{% endcapture %}{%- if workspace__faq -%}{{ workspace__faq | strip }}{% assign workspace__faq = nil %}{%- endif -%}

@@ -1,0 +1,18 @@
+{% capture workspace__page_social_list %}
+{% comment %}
+---
+vim: filetype=liquid
+version: 0.0.1
+authors:
+  - Jekyll
+  - Digital-Mercenaries
+license: MIT
+---
+{% endcomment %}
+
+<ul class="social-media-list">
+  {% for entry in site.minima.social_links %}
+    {% include social-item.html item = entry %}
+  {% endfor %}
+</ul>
+{% endcapture %}{%- if workspace__page_social_list -%}{{ workspace__page_social_list | strip_newlines | strip }}{% assign workspace__page_social_list = nil %}{%- endif -%}

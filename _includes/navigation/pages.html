@@ -1,0 +1,26 @@
+{% capture workspace__navigation__pages %}
+{% comment %}
+---
+vim: filetype=liquid
+version: 0.0.1
+authors:
+  - Jekyll
+  - Digital-Mercenaries
+license: MIT
+---
+{% endcomment %}
+
+{% assign workspace__navigation__root_pages = site.root | where_exp: 'item', 'item.navigation' | sort: 'navigation.weight' %}
+
+{% for workspace__navigation__root_page in workspace__navigation__root_pages %}
+  {% if workspace__navigation__root_page.title %}
+    <a class="page-link" href="{{ workspace__navigation__root_page.url | relative_url }}">
+      {{ workspace__navigation__root_page.title | escape }}
+    </a>
+  {% endif %}
+  {% assign workspace__navigation__root_page = nil %}
+{% endfor %}
+
+{% assign workspace__navigation__root_pages = nil %}
+
+{% endcapture %}{%- if workspace__navigation__pages -%}{{ workspace__navigation__pages | strip_newlines | strip }}{% assign workspace__navigation__pages = nil %}{%- endif -%}

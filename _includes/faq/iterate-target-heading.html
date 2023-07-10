@@ -1,0 +1,31 @@
+{% capture workspace__faq_target %}
+{% comment %}
+---
+vim: filetype=liquid
+version: 0.0.1
+author: Digital-Mercenaries
+license: AGPL-3.0
+---
+{% endcomment %}
+
+{% assign items__list = include.items %}
+
+{% if items__list %}
+  {% for item__q_and_a in items__list %}
+    {% capture workspace__faq_target__data %}
+      <details id="{{ item__q_and_a.title | slugify }}">
+        <summary><strong>{{ item__q_and_a.title }}?</strong></summary>
+        <blockquote>{{ item__q_and_a.content | markdownify }}</blockquote>
+      </details>
+    {% endcapture %}
+
+{% comment %}
+Note: to be included within MarkDown files we must pre-strip indentation
+{% endcomment %}
+{{ workspace__faq_target__data | strip }}
+
+  {% endfor %}
+{% endif %}
+
+{% endcapture %}{%- if workspace__faq_target -%}{{ workspace__faq_target | strip }}{% assign workspace__faq_target = nil %}{%- endif -%}
+
