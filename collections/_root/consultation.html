@@ -33,6 +33,15 @@ navigation:
   {{ workspace__consultation__step.content | markdownify }}
 {% endfor %}
 
+
+{% assign data__faq__page = site.faq | where_exp: "item", "item.heading == page.title" %}
+{% if data__faq__page %}
+  <h2>FAQ</h2>
+
+  {% include faq/iterate-target-heading.html items=data__faq__page %}
+{% endif %}
+
+
 <hr>
 
 <p>
