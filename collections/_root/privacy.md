@@ -104,7 +104,5 @@ this Privacy Notice will continue to be in full force and effect.
 ## Contact Us
 
 If you have any questions, concerns, or requests regarding this Privacy Notice
-or our privacy practices, please contact us at:
-
-Email: `{{ site.email }}`
+or our privacy practices, please contact us via email: `{{ site.email }}`
 
