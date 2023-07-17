@@ -44,6 +44,14 @@ opportunities arise.
   </p>
 </details>
 
+
+## FAQ
+
+
+{% assign data__faq__page = site.faq | where_exp: "item", "item.heading == page.title" %}
+{% include faq/iterate-target-heading.html items=data__faq__page %}
+
+
 ---
 
 We appreciate your interest in joining {{ site.title }} and look forward to
