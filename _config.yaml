@@ -34,16 +34,16 @@ minima:
   skin: auto
   social_links:
     - platform: github
-      user_url: https://github.com/Digital-Mercenaries
-      title:
+      user_url: https://github.com/Digital-Mercenaries-LLC
+      title: GitHub Organization for Company FOSS repositories
 
     - platform: mastodon
       user_url: https://mastodon.social/@Digital_Mercenaries
-      title:
+      title: Mastodon be where we may toot sweet technical tips
 
     - platform: twitter
       user_url: https://twitter.com/Digital_Mercs
-      title:
+      title: Tweet sized tech tricks
 
 ##
 # https://github.com/jekyll/minima/issues/19
