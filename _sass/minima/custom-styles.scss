@@ -1,2 +1,18 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+// Make it easier for clients to detect clickable details elements
+details {
+  cursor: pointer;
+}
+
+// Visually differentiate details targeted by ID, because CSS ain't yet allowed
+// to make children elements visible; and we're not adding JS just for that.
+details:is(:target) {
+  border-color: hotpink;
+  border-style: solid;
+
+  border-width:  0.2rem  0.2rem 0 0;
+  margin:       -0.2rem -0.2rem 0 0;
+}
+
