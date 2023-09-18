@@ -8,6 +8,9 @@ description: >-
 version: 0.0.1
 author: Digital-Mercenaries
 license: All Rights Reserved
+
+navigation:
+  weight: 0
 ---
 
 
