@@ -11,8 +11,11 @@ license: MIT
 {% endcomment %}
 <header class="site-header">
   <div class="wrapper">
-    {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
-    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    {%- if page.title -%}
+      <h1 class="page-heading post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    {%- else -%}
+      <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    {%- endif -%}
 
     {%- if site.root -%}
       <nav class="site-nav">
