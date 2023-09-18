@@ -12,7 +12,7 @@ mission:
     Gain essential insights and stay ahead in an ever-evolving technological
     landscape with our comprehensive mentorship program.
 
-version: 0.0.1
+version: 0.0.2
 author: Digital-Mercenaries
 license: All Rights Reserved
 ---
@@ -91,13 +91,13 @@ you to achieve greater employment potential.
    development scenarios.
 
 0. **Continuous Coaching:** Throughout the mentorship program, you'll receive
-   continuous feedback and support from your mentor. They will review your
+   continuous feedback and support from your mentor.  They will review your
    work, provide constructive insights, and offer guidance to help you enhance
    your skills and knowledge.
 
 0. **Ongoing Skill Development:** Our mentorship program goes beyond the
-   initial training phase. Your mentor will assist you in identifying areas for
-   improvement and help you develop new skills to stay ahead in the
+   initial training phase.  Your mentor will assist you in identifying areas
+   for improvement and help you develop new skills to stay ahead in the
    ever-evolving field of software development.
 
 

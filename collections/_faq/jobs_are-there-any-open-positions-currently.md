@@ -1,7 +1,7 @@
 ---
 heading: Jobs
 title: Are there any open positions currently
-version: 0.0.1
+version: 0.0.2
 author: Digital-Mercenaries
 license: All Rights Reserved
 ---

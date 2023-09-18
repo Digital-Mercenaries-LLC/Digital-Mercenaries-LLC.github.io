@@ -1,7 +1,7 @@
 ---
 heading: General
 title: What should I do if there is a breakdown in communication during the contracted work
-version: 0.0.1
+version: 0.0.2
 author: Digital-Mercenaries
 license: All Rights Reserved
 ---

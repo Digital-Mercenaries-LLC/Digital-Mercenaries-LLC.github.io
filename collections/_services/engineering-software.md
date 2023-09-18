@@ -12,7 +12,7 @@ mission:
     By promoting efficient development practices we empower you, and your team,
     to build robust and scalable software solutions.
 
-version: 0.0.1
+version: 0.0.2
 author: Digital-Mercenaries
 license: All Rights Reserved
 ---
@@ -21,9 +21,9 @@ license: All Rights Reserved
 
 At {{ site.title }}, we specialize in top-notch software engineering services
 to help you build reliable, scalable, and high-performance applications.  Our
-experienced software engineering agents are dedicated to delivering technical
-solutions tailored to your unique needs.  Partner with us to unleash the full
-potential of your software!
+experienced software engineers are dedicated to delivering technical solutions
+tailored to your unique needs.  Partner with us to unleash the full potential
+of your software!
 
 
 ---
@@ -33,8 +33,8 @@ potential of your software!
 
 
 - **Custom software development:** We develop custom software solutions
-  designed to meet your specific requirements.  Our expert agents leverage the
-  latest technologies, and industry best practices, to build robust and
+  designed to meet your specific requirements.  Our expert Mercenaries leverage
+  the latest technologies, and industry best practices, to build robust and
   scalable applications that drive your business forward.
 
 - **Application modernization:** We help you modernize your legacy
@@ -49,8 +49,8 @@ potential of your software!
 
 - **Quality assurance and testing:** We employ comprehensive testing strategies
   to ensure the reliability and functionality of your software.  From automated
-  testing to profiling performance, our QA specialists work diligently to
-  deliver a bug-free and seamless experience for your customers.
+  testing to profiling performance, our specialists work diligently to deliver
+  a bug-free and seamless experience for your customers.
 
 
 ### Why Choose Us
@@ -67,9 +67,9 @@ potential of your software!
   into reality.
 
 - **Timely delivery and scalability:** We understand the importance of meeting
-  deadlines and delivering projects on time.  Each of our agents follow a set
-  of proprietary practices, enabling us to adapt to changing requirements and
-  ensure the scalability of your software.
+  deadlines and delivering projects on time.  Each of our Mercenaries follow a
+  set of proprietary practices, enabling us to adapt to changing requirements
+  and ensure the scalability of your software.
 
 
 ### How It Works

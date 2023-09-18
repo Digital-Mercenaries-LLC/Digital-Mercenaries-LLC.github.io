@@ -4,7 +4,7 @@ title: Jobs
 description: >-
   Join our team and be part of driving technological excellence.
 
-version: 0.0.1
+version: 0.0.2
 author: Digital-Mercenaries
 license: All Rights Reserved
 
@@ -38,7 +38,7 @@ opportunities arise.
   <blockquote>{% include email-template/jobs.html %}</blockquote>
 
   <p>
-    Please customize above to suit your own style!... However, until we
+    Please customize above to suit your own style!...  However, until we
     explicitly ask, do <strong>not</strong> include any attachments such as;
     cover-letter, resume, or other PII (Personally Identifiable Information).
   </p>

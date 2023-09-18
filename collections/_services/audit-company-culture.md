@@ -13,7 +13,7 @@ mission:
     We help you identify and resolve factors that may be causing talented
     technical teammates to seek greener pastures.
 
-version: 0.0.1
+version: 0.0.2
 author: Digital-Mercenaries
 license: All Rights Reserved
 ---
@@ -34,7 +34,7 @@ company culture audit today and reduce turnover!
 ### What We Offer
 
 
-- **Identifying factors impacting retention:** Our experienced agents will
+- **Identifying factors impacting retention:** Our experienced Mercenaries will
   uncover factors that are contributing to employee turnover, exploring areas
   such as; leadership, communication, work-life balance, and growth
   opportunities.  This comprehensive analysis provides valuable insights into
@@ -71,29 +71,30 @@ company culture audit today and reduce turnover!
    [consultation][link__consultation] to understand your company's goals,
    challenges, and determine if our services align with your needs.
 
-0. **Dedicated Agent Deployment:** Once engaged, we assign a dedicated agent to
-   your company who will work closely with your team throughout the entire
-   process.
+0. **Dedicated Agent Deployment:** Once engaged, we assign a dedicated
+   Mercenary to your company who will work closely with your team throughout
+   the entire process.
 
-0. **Incognito Data Collection:** Our expert agent seamlessly integrates into
-   your organization, observing and gathering data while appearing as a regular
-   employee, manager, or executive.
+0. **Incognito Data Collection:** Your expert Mercenary seamlessly integrates
+   into your organization, observing and gathering data while appearing as a
+   regular employee, manager, or executive.
 
-0. **Thorough Analysis and Evaluation:** Our agent conducts a comprehensive
-   evaluation of the collected data, examining key factors impacting employee
-   retention, such as leadership, communication, work-life balance, and growth
-   opportunities.
+0. **Thorough Analysis and Evaluation:** Your dedicated Mercenary conducts a
+   comprehensive evaluation of the collected data, examining key factors
+   impacting employee retention, such as leadership, communication, work-life
+   balance, and growth opportunities.
 
-0. **Insights and Tailored Recommendations:** Based on the analysis, our agent
-   provides a detailed report outlining findings, along with actionable
-   recommendations customized to address the specific needs of your company.
+0. **Insights and Tailored Recommendations:** Based on the analysis, your
+   Mercenary provides a detailed report outlining findings, along with
+   actionable recommendations customized to address the specific needs of your
+   company.
 
-0. **Collaborative Implementation:** Our agent collaborates with you and your
-   team to implement the recommended strategies and initiatives, ensuring a
-   solutions align with your company's culture.
+0. **Collaborative Implementation:** Your expert Mercenary collaborates with
+   you and your team to implement the recommended strategies and initiatives,
+   ensuring a solutions align with your company's culture.
 
 0. **Ongoing Support and Follow-up:** Throughout the implementation process,
-   our dedicated agent provides continuous support and guidance, offering
+   your dedicated Mercenary provides continuous support and guidance, offering
    follow-up assessments to monitor progress, address challenges, and foster a
    culture of continuous improvement.
 

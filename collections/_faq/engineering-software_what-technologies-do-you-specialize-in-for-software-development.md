@@ -1,7 +1,7 @@
 ---
 heading: Engineering -- Software
 title: What technologies do you specialize in for software development
-version: 0.0.1
+version: 0.0.2
 author: Digital-Mercenaries
 license: All Rights Reserved
 ---
@@ -14,7 +14,7 @@ From low-level bit manipulation in assembly on micro-controllers to crafting
 bespoke infrastructure-as-code scripts using Awk and Bash, and from exploring
 cutting-edge distributed blockchain development with Rust and Solidity to
 creating scalable web applications with Java, Python, and TypeScript, our
-talented agents bring a wealth of expertise to the table.
+talented Mercenaries bring a wealth of expertise to the table.
 
 By staying at the forefront of technological advancements, we deliver
 innovative and forward-thinking software solutions that drive profitability for
