@@ -13,10 +13,15 @@ license: AGPL-3.0
 {% if items__list %}
   {% for item__q_and_a in items__list %}
     {% capture workspace__faq_target__data %}
-      <details id="{{ item__q_and_a.title | slugify }}">
-        <summary><strong>{{ item__q_and_a.title }}?</strong></summary>
-        <blockquote>{{ item__q_and_a.content | markdownify }}</blockquote>
-      </details>
+      <div class="container__hacked__details-summary">
+        <input type="checkbox" id="{{ item__q_and_a.title | slugify }}" class="hidden-input">
+        <label for="{{ item__q_and_a.title | slugify }}" class="summary">
+          <strong>{{ item__q_and_a.title }}?</strong>
+        </label>
+        <div class="details">
+          <blockquote>{{ item__q_and_a.content | markdownify }}</blockquote>
+        </div>
+      </div>
     {% endcapture %}
 
 {% comment %}

@@ -18,10 +18,16 @@ license: AGPL-3.0
       {% assign heading__q_and_a = item__q_and_a.heading %}
       <h3>{{ heading__q_and_a }}</h3>
     {% endif %}
-    <details id="{{ item__q_and_a.title | slugify }}">
-      <summary><strong>{{ item__q_and_a.title }}?</strong></summary>
-      <blockquote>{{ item__q_and_a.content | markdownify }}</blockquote>
-    </details>
+
+    <div class="container__hacked__details-summary">
+      <input type="checkbox" id="{{ item__q_and_a.title | slugify }}" class="hidden-input">
+      <label for="{{ item__q_and_a.title | slugify }}" class="summary">
+        <strong>{{ item__q_and_a.title }}?</strong>
+      </label>
+      <div class="details">
+        <blockquote>{{ item__q_and_a.content | markdownify }}</blockquote>
+      </div>
+    </div>
   {% endfor %}
 
   {% assign heading__q_and_a = nil %}

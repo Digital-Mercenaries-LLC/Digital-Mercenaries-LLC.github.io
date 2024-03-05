@@ -1,18 +1,50 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
 
-// Make it easier for clients to detect clickable details elements
-details {
+// Styling for custom components within;
+// - ../../_includes/faq/iterate-headings.html
+// - ../../_includes/faq/iterate-target-heading.html
+.container__hacked__details-summary .summary {
   cursor: pointer;
+  display: inline-block;
+  position: relative;
 }
 
-// Visually differentiate details targeted by ID, because CSS ain't yet allowed
-// to make children elements visible; and we're not adding JS just for that.
-details:is(:target) {
-  border-color: hotpink;
+// Add triangle/arrow indicator using ::before pseudo-element
+.container__hacked__details-summary .summary::before {
+  content: "";
+  border-style: solid;
+  border-color: transparent transparent transparent $text-color;
+  border-width: 0.25rem 0 0.25rem 0.50rem;
+  position: absolute;
+  top: 0.5rem;
+  left: -1rem;
+}
+
+// Emulate and enhance details/summary like behaviors
+.container__hacked__details-summary .hidden-input,
+.container__hacked__details-summary .details {
+  display: none;
+}
+
+.container__hacked__details-summary .hidden-input:checked ~ .details,
+.container__hacked__details-summary .hidden-input:target ~ .details {
+  display: unset;
+}
+
+.container__hacked__details-summary .hidden-input:checked ~ .summary::before,
+.container__hacked__details-summary .hidden-input:target ~ .summary::before {
+  transform: rotate(90deg);
+  left: -1.25rem;
+}
+
+.container__hacked__details-summary .hidden-input:checked ~ .summary,
+.container__hacked__details-summary .hidden-input:target ~ .summary {
+  border-color: var(--minima-border-color-01);
   border-style: solid;
 
-  border-width:  0.2rem  0.2rem 0 0;
-  margin:       -0.2rem -0.2rem 0 0;
+  padding-left: 0.4rem;
+  border-width: 0.2rem 0 0 0.2rem;
+  margin-top: -0.2rem;
 }
 
