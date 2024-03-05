@@ -1,7 +1,7 @@
 ---
 heading: General
-title: Can I higher multiple Mercenaries
-version: 0.0.2
+title: Can I hire multiple Mercenaries
+version: 0.0.3
 author: Digital-Mercenaries
 license: All Rights Reserved
 ---
