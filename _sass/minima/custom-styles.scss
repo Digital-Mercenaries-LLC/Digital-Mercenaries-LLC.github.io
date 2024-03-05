@@ -22,7 +22,14 @@
 }
 
 // Emulate and enhance details/summary like behaviors
-.container__hacked__details-summary .hidden-input,
+.container__hacked__details-summary .hidden-input {
+  visibility: hidden;
+  width: 0;
+  height: 0;
+  margin: 0;
+  margin-inline-start: -0.5rem;
+}
+
 .container__hacked__details-summary .details {
   display: none;
 }
