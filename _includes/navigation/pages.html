@@ -14,7 +14,13 @@ license: MIT
 
 {% for workspace__navigation__root_page in workspace__navigation__root_pages %}
   {% if workspace__navigation__root_page.title %}
-    <a class="page-link" href="{{ workspace__navigation__root_page.url | relative_url }}">
+    <a
+      class="page-link"
+      href="{{ workspace__navigation__root_page.url | relative_url }}"
+      {% if workspace__navigation__root_page.description %}
+        title="{{ workspace__navigation__root_page.description | truncate: 80 }}"
+      {% endif %}
+    >
       {{ workspace__navigation__root_page.title | escape }}
     </a>
   {% endif %}
