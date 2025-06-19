@@ -14,17 +14,12 @@ navigation:
 ---
 
 <p>
-  At {{ site.title }}, we look forward to discussing how we can help turn your
-  ideas into reality.
+  We look forward to discussing how we can encode your dreams into reality!
 </p>
 
 <hr>
 
 <h2>What You Can Expect</h2>
-
-<p>
-  When you contact us for an initial consultation, here's what you can expect:
-</p>
 
 {% assign workspace__consultation__steps = site.consultation | where_exp: 'item', 'item.navigation' |  sort: 'navigation.weight' %}
 
@@ -33,6 +28,7 @@ navigation:
   {{ workspace__consultation__step.content | markdownify }}
 {% endfor %}
 
+<hr>
 
 {% assign data__faq__page = site.faq | where_exp: "item", "item.heading == page.title" %}
 {% if data__faq__page %}
@@ -40,13 +36,4 @@ navigation:
 
   {% include faq/iterate-target-heading.html items=data__faq__page %}
 {% endif %}
-
-
-<hr>
-
-<p>
-  Schedule your personalized consultation with an agent of {{ site.title }}
-  today, and let us help bring your vision to life.  We're excited to embark on
-  this journey with you and turn your ideas into impactful solutions.
-</p>
 

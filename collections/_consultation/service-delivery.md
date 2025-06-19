@@ -1,6 +1,6 @@
 ---
 title: Service Delivery
-version: 0.0.1
+version: 0.0.2
 author: Digital-Mercenaries
 license: All Rights Reserved
 navigation:
@@ -8,7 +8,9 @@ navigation:
 ---
 
 
-Once the contract agreement is finalized and filed, we will provide you with an
-estimated time-frame for the beginning of work or service delivery.  This
-ensures clear expectations and allows us to align our resources accordingly.
+Once the contract agreement is finalized and filed, your Mercenary will provide
+you with an estimated time-frame for the beginning of work or service delivery.
+
+Provided there are no major blockers, this can be as soon as five business days
+from first contact!
 

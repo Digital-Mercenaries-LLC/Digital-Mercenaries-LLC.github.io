@@ -1,6 +1,6 @@
 ---
 title: Contract Agreement
-version: 0.0.2
+version: 0.0.3
 author: Digital-Mercenaries
 license: All Rights Reserved
 navigation:
@@ -8,9 +8,11 @@ navigation:
 ---
 
 
-If our Mercenary determines that we are the right fit for your project, a
+If our Mercenary determines that they're an adequate fit for your project, a
 second consultation will be scheduled to discuss the specific details of the
-work to be performed.  During this meeting, we will address any remaining
-questions, negotiate a compensation structure that aligns with your budget and
+work to be performed.
+
+During this meeting your Mercenary will; address any remaining questions,
+negotiate a compensation structure that aligns with your budget and time
 requirements, and finalize the contract agreement.
 
