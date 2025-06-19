@@ -1,0 +1,24 @@
+{% capture workspace__details_summary %}
+{% comment %}
+---
+vim: filetype=liquid
+version: 0.0.1
+author: Digital-Mercenaries
+license: AGPL-3.0
+---
+{% endcomment %}
+
+{% assign workspace__details_summary__title = include.title %}
+{% assign workspace__details_summary__content = include.content %}
+
+<div class="container__hacked__details-summary">
+  <input type="checkbox" id="{{ workspace__details_summary__title | slugify }}" class="hidden-input" tabindex="-1">
+  <label for="{{ workspace__details_summary__title | slugify }}" class="summary" tabindex="0">
+    <strong>{{ workspace__details_summary__title }}?</strong>
+  </label>
+  <div class="details">
+    <blockquote>{{ workspace__details_summary__content | markdownify }}</blockquote>
+  </div>
+</div>
+
+{% endcapture %}{%- if workspace__details_summary -%}{{ workspace__details_summary | strip }}{% assign workspace__details_summary = nil %}{%- endif -%}
