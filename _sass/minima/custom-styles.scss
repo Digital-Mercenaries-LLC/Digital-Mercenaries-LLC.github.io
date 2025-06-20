@@ -9,6 +9,7 @@
   display: inline-block;
   position: relative;
   width: 95%;
+  margin-inline-start: 0.25rem;
 }
 
 // Add triangle/arrow indicator using ::before pseudo-element
@@ -38,30 +39,28 @@
   font-style: italic;
   font-size: 1.125rem;
   padding-left: 1.5rem;
-  border-style: solid;
-  border-color: var(--minima-border-color-01);
-  border-width: 0 0 0 0.25rem;
 }
 
 .container__hacked__details-summary .hidden-input:checked ~ .details,
 .container__hacked__details-summary .hidden-input:target ~ .details {
-  display: block;
+  display: revert;
+}
+
+.container__hacked__details-summary .hidden-input:checked ~ .summary,
+.container__hacked__details-summary .hidden-input:target ~ .summary {
+  padding-left: 0.25rem;
 }
 
 .container__hacked__details-summary .hidden-input:checked ~ .summary::before,
 .container__hacked__details-summary .hidden-input:target ~ .summary::before {
   transform: rotate(90deg);
-  left: -1.75rem;
-  margin-inline-start: 0.25rem;
+  left: -1.25rem;
 }
 
-.container__hacked__details-summary .hidden-input:checked ~ .summary,
-.container__hacked__details-summary .hidden-input:target ~ .summary {
+.container__hacked__details-summary:has(.hidden-input:checked),
+.container__hacked__details-summary:has(.hidden-input:target) {
   border-color: var(--minima-border-color-01);
   border-style: solid;
-
-  padding-left: 0.25rem;
   border-width: 0.25rem 0 0 0.25rem;
-  margin-inline-start: 0.25rem;
 }
 
