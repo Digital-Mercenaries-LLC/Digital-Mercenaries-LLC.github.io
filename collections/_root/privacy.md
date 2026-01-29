@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Privacy Policy
+title: Privacy Policy of Digital Mercenaries
 description: >-
   How we safeguard your information when you visit our website
 
-version: 0.0.1
+version: 0.0.2
 author: Digital-Mercenaries
 license: All Rights Reserved
 

@@ -1,10 +1,10 @@
 ---
 layout: page
-title: About Us
+title: About Digital Mercenaries
 description: >-
   Learn more about our commitment to delivering tactical technical solutions
 
-version: 0.0.1
+version: 0.0.2
 author: Digital-Mercenaries
 license: All Rights Reserved
 

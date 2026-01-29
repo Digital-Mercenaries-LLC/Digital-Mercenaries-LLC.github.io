@@ -1,11 +1,11 @@
 ---
 layout: home
-title: Home
+title: Home of Digital Mercenaries
 description: >-
   We empower individuals and organizations to thrive in the fast-paced world of
   technology
 
-version: 0.0.1
+version: 0.0.2
 author: Digital-Mercenaries
 license: All Rights Reserved
 
