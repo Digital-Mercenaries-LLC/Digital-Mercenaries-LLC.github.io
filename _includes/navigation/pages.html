@@ -2,7 +2,7 @@
 {% comment %}
 ---
 vim: filetype=liquid
-version: 0.0.1
+version: 0.0.2
 authors:
   - Jekyll
   - Digital-Mercenaries
@@ -13,7 +13,10 @@ license: MIT
 {% assign workspace__navigation__root_pages = site.root | where_exp: 'item', 'item.navigation' | sort: 'navigation.weight' %}
 
 {% for workspace__navigation__root_page in workspace__navigation__root_pages %}
-  {% if workspace__navigation__root_page.title %}
+  {% assign workspace__navigation__title = workspace__navigation__root_page.navigation.title
+    | default: workspace__navigation__root_page.title
+    | default: nil %}
+  {% if workspace__navigation__title %}
     <a
       class="page-link"
       href="{{ workspace__navigation__root_page.url | relative_url }}"
@@ -21,7 +24,7 @@ license: MIT
         title="{{ workspace__navigation__root_page.description | truncate: 80 }}"
       {% endif %}
     >
-      {{ workspace__navigation__root_page.title | escape }}
+      {{ workspace__navigation__title | escape }}
     </a>
   {% endif %}
   {% assign workspace__navigation__root_page = nil %}

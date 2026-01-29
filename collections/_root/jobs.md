@@ -4,11 +4,12 @@ title: Jobs for Digital Mercenaries
 description: >-
   Join our team and be part of driving technological excellence.
 
-version: 0.0.3
+version: 0.0.4
 author: Digital-Mercenaries
 license: All Rights Reserved
 
 navigation:
+  title: Jobs
   weight: 90
 ---
 

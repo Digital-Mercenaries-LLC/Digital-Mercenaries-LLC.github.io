@@ -5,11 +5,12 @@ description: >-
   We empower individuals and organizations to thrive in the fast-paced world of
   technology
 
-version: 0.0.2
+version: 0.0.3
 author: Digital-Mercenaries
 license: All Rights Reserved
 
 navigation:
+  title: Home
   weight: 0
 ---
 

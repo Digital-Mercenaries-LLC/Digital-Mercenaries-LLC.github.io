@@ -9,6 +9,7 @@ author: Digital-Mercenaries
 license: All Rights Reserved
 
 navigation:
+  title: About
   weight: 30
 ---
 
