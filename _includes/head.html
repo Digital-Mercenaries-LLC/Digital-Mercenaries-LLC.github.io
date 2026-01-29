@@ -17,5 +17,6 @@ license: MIT
   <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
   {%- feed_meta -%}
   {%- include custom-head.html -%}
+  {%- include modules/includes-scripts/includes-scripts.html -%}
 </head>
 {% endcapture %}{%- if workspace__page_head -%}{{ workspace__page_head | strip_newlines | strip }}{% assign workspace__page_head = nil %}{%- endif -%}

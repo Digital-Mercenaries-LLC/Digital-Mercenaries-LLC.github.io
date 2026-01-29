@@ -1,0 +1,8 @@
+[submodule "includes-scripts"]
+	path = _includes/modules/includes-scripts
+	url = https://github.com/liquid-utilities/includes-scripts.git
+	branch = main
+[submodule "includes-attribution"]
+	path = _includes/modules/includes-attribution
+	url = https://github.com/liquid-utilities/includes-attribution.git
+	branch = main
