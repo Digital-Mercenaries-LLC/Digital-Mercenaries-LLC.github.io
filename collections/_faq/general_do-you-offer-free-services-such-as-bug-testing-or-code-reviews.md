@@ -1,25 +1,20 @@
 ---
 heading: General
 title: Do you offer free services such as bug testing or code reviews
-version: 0.0.1
+version: 0.0.2
 author: Digital-Mercenaries
 license: All Rights Reserved
 ---
 
 
-We appreciate the interest in our expertise!  However, as a professional
-service, we do not provide free work, including bug testing, code reviews, or
-similar services.  Our commitment is to deliver high-quality, tailored
-solutions through our paid services.
+**No**
 
-If you are interested in our services, we encourage you to schedule a
-[consultation][link__consultation] to discuss your specific needs and explore
-how we can assist you effectively.  During the consultation, we can provide
-insights into our process, address any questions you may have, and determine
-the best approach for your project.
+If you are interested in exchanging real value for the value our services
+provide, then we encourage you to schedule a [consultation][link__consultation]
+to discuss your specific needs and explore how we can assist you effectively.
 
-We value our clients and focus on delivering exceptional results through
-dedicated and personalized services.  Thank you for your understanding.
+Else if you're interested in extracting value without any form of tangible
+compensation, then please lose our contact details today!
 
 
 

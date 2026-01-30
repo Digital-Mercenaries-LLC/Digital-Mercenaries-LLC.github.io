@@ -1,7 +1,7 @@
 ---
 heading: Jobs
 title: Are you remote-work friedly
-version: 0.0.1
+version: 0.0.2
 author: Digital-Mercenaries
 license: All Rights Reserved
 ---
@@ -9,7 +9,8 @@ license: All Rights Reserved
 
 **Yes!**
 
-We follow a remote-first approach.  We believe in the power of remote work,
-enabling our team members to work from anywhere and collaborate effectively.
-Our remote work setup allows for flexibility and a healthy work-life balance.
+We follow a remote-first approach.
+
+The power of remote work enables our team members to work from anywhere,
+collaborate effectively, and aids in creating a healthy work-life balance.
 
