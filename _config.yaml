@@ -60,6 +60,10 @@ minima:
 ## Thanks be to - https://jekyllrb.com/docs/collections/
 collections_dir: collections
 collections:
+  blog:
+    output: true
+    permalink: /:collection/:name.html
+
   consultation:
     output: false
 
