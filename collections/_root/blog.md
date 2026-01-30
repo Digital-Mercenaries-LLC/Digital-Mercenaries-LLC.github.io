@@ -5,7 +5,7 @@ title: Blog by Digital Mercenaries
 description: >-
   Technical business focused pubicly published posts
 
-version: 0.0.1
+version: 0.0.2
 author: Digital-Mercenaries
 license: All Rights Reserved
 
@@ -16,15 +16,19 @@ navigation:
 
 {{ page.description }}
 
+{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
 {% for post in site.blog | sort: post.date | reversed %}
-  <ul>
+  <ul class="post-list">
     {% if post.title and post.description and post.date %}
       <li>
-        <a href="{{ post.url }}" title="{{ post.description | truncate: 80 }}">
-          {{ post.date | date: "%F" }} -- {{ post.title }}
+        <a href="{{ post.url }}" title="{{ post.description | truncate: 80 }}" class="post-link">
+          {{ post.title }}
         </a>
-  
-        <blockquote>{{ post.description }}</blockquote>
+        <blockquote>
+          <span class="post-meta">{{ post.date | date: date_format }}</span>
+          <br>
+          {{ post.description }}
+        </blockquote>
       </li>
     {% endif %}
   </ul>
