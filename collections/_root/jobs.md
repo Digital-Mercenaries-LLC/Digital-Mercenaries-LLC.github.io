@@ -49,7 +49,7 @@ opportunities arise.
 ## FAQ
 
 
-{% assign data__faq__page = site.faq | where_exp: "item", "item.heading == page.title" %}
+{% assign data__faq__page = site.faq | where_exp: "item", "item.heading == page.navigation.title" %}
 {% include faq/iterate-target-heading.html items=data__faq__page %}
 
 

@@ -31,7 +31,7 @@ navigation:
 
 <hr>
 
-{% assign data__faq__page = site.faq | where_exp: "item", "item.heading == page.title" %}
+{% assign data__faq__page = site.faq | where_exp: "item", "item.heading == page.navigation.title" %}
 {% if data__faq__page %}
   <h2>FAQ</h2>
 
