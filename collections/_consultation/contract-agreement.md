@@ -1,6 +1,6 @@
 ---
 title: Contract Agreement
-version: 0.0.3
+version: 0.0.4
 author: Digital-Mercenaries
 license: All Rights Reserved
 navigation:
@@ -9,7 +9,7 @@ navigation:
 
 
 If our Mercenary determines that they're an adequate fit for your project, a
-second consultation will be scheduled to discuss the specific details of the
+second consultation may be scheduled to discuss the specific details of the
 work to be performed.
 
 During this meeting your Mercenary will; address any remaining questions,

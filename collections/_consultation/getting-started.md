@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-version: 0.0.2
+version: 0.0.3
 author: Digital-Mercenaries
 license: All Rights Reserved
 navigation:
@@ -9,8 +9,8 @@ navigation:
 
 To kick off the process, provide us with the following information:
 
-- **Services Wanted:** whether it's software development, auditing processes,
-  leadership training, or mentorship
+- **Services Wanted:** software development, auditing processes, leadership
+  training, or mentorship, or combo of some or all of the services we offer
 - **Project Outline:** (elevator pitch) of the key aspects of your project or
   work requirements
 - **Constraints:** specifically time-frame and any budget constraints you have
