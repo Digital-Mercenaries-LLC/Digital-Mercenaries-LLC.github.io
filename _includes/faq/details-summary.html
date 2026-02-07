@@ -2,7 +2,7 @@
 {% comment %}
 ---
 vim: filetype=liquid
-version: 0.0.1
+version: 0.0.2
 author: Digital-Mercenaries
 license: AGPL-3.0
 ---
@@ -10,10 +10,12 @@ license: AGPL-3.0
 
 {% assign workspace__details_summary__title = include.title %}
 {% assign workspace__details_summary__content = include.content %}
+{% assign workspace__details_summary__id = workspace__details_summary__title | slugify %}
 
 <div class="container__hacked__details-summary">
-  <input type="checkbox" id="{{ workspace__details_summary__title | slugify }}" class="hidden-input" tabindex="-1">
-  <label for="{{ workspace__details_summary__title | slugify }}" class="summary" tabindex="0">
+  <input type="checkbox" id="{{ workspace__details_summary__id }}" class="hidden-input" tabindex="-1">
+  <label for="{{ workspace__details_summary__id }}" class="summary" tabindex="0">
+    <a href="#{{ workspace__details_summary__id }}" class="summary--link"></a>
     <strong>{{ workspace__details_summary__title }}?</strong>
   </label>
   <div class="details">
