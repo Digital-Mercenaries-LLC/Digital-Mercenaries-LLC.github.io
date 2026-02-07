@@ -5,7 +5,7 @@ description: >-
   We empower individuals and organizations to thrive in the fast-paced world of
   technology
 
-version: 0.0.3
+version: 0.0.4
 author: Digital-Mercenaries
 license: All Rights Reserved
 
@@ -16,20 +16,17 @@ navigation:
 
 
 
-Welcome to {{ site.title }}, where we empower individuals and organizations to
-thrive in the fast-paced world of technology!
+{{ page.description }}!
 
-Our Mercenaries strive to understand your unique technical needs.  Whether
-you're an aspiring software developer looking to launch your career, a business
-owner seeking to foster a positive work environment, an executive aiming to
-enhance your team's management skills, or in need of expert software
-engineering solutions, our comprehensive [services][link__services] have you
-covered.
+Whether you're an aspiring software developer aiming to launch your career, a
+business owner seeking to foster a positive work environment, an executive
+aiming to enhance your management team's skills, or in need of expert software
+engineering solutions, our Digital Mercenaries have you covered.
 
-Schedule a confidential [consultation][link__consultation] with our dedicated
-team and let's bring your vision to life!
+Schedule a confidential [consultation][] discover how our [services][] may
+bring your vision to life!
 
 
-[link__services]: {{ 'services.html' | relative_url }}
-[link__consultation]: {{ 'consultation.html' | relative_url }}
+[services]: {{ 'services.html' | relative_url }}
+[consultation]: {{ 'consultation.html' | relative_url }}
 
