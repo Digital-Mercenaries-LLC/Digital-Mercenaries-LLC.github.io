@@ -20,7 +20,7 @@
     {
       devShells.${system} = {
         /**
-          ```nix
+          ```bash
           nix develop
           ```
         */
@@ -34,7 +34,7 @@
 
 
         /**
-          ```nix
+          ```bash
           nix develop .#chromium
           ```
         */
@@ -47,7 +47,7 @@
 
         docker-compose = {
           /**
-            ```nix
+            ```bash
             nix develop .#docker-compose.up
             ```
           */
@@ -60,7 +60,7 @@
 
           restart = {
             /**
-              ```nix
+              ```bash
               nix develop .#docker-compose.restart.jekyll
               ```
             */
@@ -74,7 +74,7 @@
 
           shell = {
             /**
-              ```nix
+              ```bash
               nix develop .#docker-compose.shell.jekyll
               ```
             */
@@ -88,7 +88,7 @@
 
           stop = {
             /**
-              ```nix
+              ```bash
               nix develop .#docker-compose.stop.jekyll
               ```
             */
