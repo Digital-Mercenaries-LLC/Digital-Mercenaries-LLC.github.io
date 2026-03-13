@@ -5,7 +5,7 @@ description: >-
   We empower individuals and organizations to thrive in the fast-paced world of
   technology
 
-version: 0.0.4
+version: 0.0.5
 author: Digital-Mercenaries
 license: All Rights Reserved
 
@@ -23,7 +23,7 @@ business owner seeking to foster a positive work environment, an executive
 aiming to enhance your management team's skills, or in need of expert software
 engineering solutions, our Digital Mercenaries have you covered.
 
-Schedule a confidential [consultation][] discover how our [services][] may
+Schedule a confidential [consultation][] and discover how our [services][] may
 bring your vision to life!
 
 
